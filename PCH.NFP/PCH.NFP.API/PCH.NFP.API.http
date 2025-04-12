@@ -1,0 +1,6 @@
+@PCH.NFP.API_HostAddress = http://localhost:5183
+
+GET {{PCH.NFP.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
