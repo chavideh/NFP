@@ -1,0 +1,7 @@
+D:\Projects\NFP\PCH.NFP.UI\PCH.NFP.UI.Client\obj\Debug\net9.0\staticwebassets.build.json
+D:\Projects\NFP\PCH.NFP.UI\PCH.NFP.UI.Client\obj\Debug\net9.0\staticwebassets.build.json
+D:\Projects\NFP\PCH.NFP.UI\PCH.NFP.UI.Client\obj\Debug\net9.0\staticwebassets.build.json
+D:\Projects\NFP\PCH.NFP.UI\PCH.NFP.UI.Client\obj\Debug\net9.0\staticwebassets.build.json
+D:\Projects\NFP\PCH.NFP.UI\PCH.NFP.UI.Client\obj\Debug\net9.0\staticwebassets.build.json
+D:\Projects\NFP\PCH.NFP.UI\PCH.NFP.UI.Client\obj\Debug\net9.0\staticwebassets.build.json
+D:\Projects\NFP\PCH.NFP.UI\PCH.NFP.UI.Client\obj\Debug\net9.0\staticwebassets.build.json

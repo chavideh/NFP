@@ -1,0 +1,29 @@
+﻿@page "/product"
+
+<h3>Product</h3>
+@inject ProductService ProductService
+@inject ISnackbar Snackbar
+@code {
+    protected override async Task OnInitializedAsync()
+    {
+        var result=   await ProductService.CreateProductAsync(new CreateProductRequest
+        {
+            Code = "2",
+            Description = "توضیحات",
+            IranCode = "123456",
+            Publish = true,
+            Quantity = 10,
+            SepidarCode = "654321",
+            Title = "محصول اول"
+
+        });
+
+        if (result.Success)
+            Snackbar.Add(result.Message, Severity.Success);
+
+        if (!result.Success)
+            Snackbar.Add(result.Message, Severity.Error);
+
+
+    }
+}

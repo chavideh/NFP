@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "PCH.NFP.API\\PCH.NFP.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "PCH.NFP.UI\\PCH.NFP.UI\\PCH.NFP.UI.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

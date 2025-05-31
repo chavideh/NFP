@@ -1,0 +1,249 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\NFP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E2D84FAA-1626-45D2-9443-6ADD8F756346}|PCH.NFP.API\\PCH.NFP.API.csproj|d:\\projects\\nfp\\pch.nfp.api\\features\\product\\createproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2D84FAA-1626-45D2-9443-6ADD8F756346}|PCH.NFP.API\\PCH.NFP.API.csproj|solutionrelative:pch.nfp.api\\features\\product\\createproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60C012F9-2A2D-4867-8F4F-EA1D321A6412}|PCH.NFP.UI\\PCH.NFP.UI.Client\\PCH.NFP.UI.Client.csproj|d:\\projects\\nfp\\pch.nfp.ui\\pch.nfp.ui.client\\pages\\product.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{60C012F9-2A2D-4867-8F4F-EA1D321A6412}|PCH.NFP.UI\\PCH.NFP.UI.Client\\PCH.NFP.UI.Client.csproj|solutionrelative:pch.nfp.ui\\pch.nfp.ui.client\\pages\\product.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60C012F9-2A2D-4867-8F4F-EA1D321A6412}|PCH.NFP.UI\\PCH.NFP.UI.Client\\PCH.NFP.UI.Client.csproj|d:\\projects\\nfp\\pch.nfp.ui\\pch.nfp.ui.client\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60C012F9-2A2D-4867-8F4F-EA1D321A6412}|PCH.NFP.UI\\PCH.NFP.UI.Client\\PCH.NFP.UI.Client.csproj|solutionrelative:pch.nfp.ui\\pch.nfp.ui.client\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60C012F9-2A2D-4867-8F4F-EA1D321A6412}|PCH.NFP.UI\\PCH.NFP.UI.Client\\PCH.NFP.UI.Client.csproj|d:\\projects\\nfp\\pch.nfp.ui\\pch.nfp.ui.client\\models\\createproductrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60C012F9-2A2D-4867-8F4F-EA1D321A6412}|PCH.NFP.UI\\PCH.NFP.UI.Client\\PCH.NFP.UI.Client.csproj|solutionrelative:pch.nfp.ui\\pch.nfp.ui.client\\models\\createproductrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60C012F9-2A2D-4867-8F4F-EA1D321A6412}|PCH.NFP.UI\\PCH.NFP.UI.Client\\PCH.NFP.UI.Client.csproj|d:\\projects\\nfp\\pch.nfp.ui\\pch.nfp.ui.client\\models\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60C012F9-2A2D-4867-8F4F-EA1D321A6412}|PCH.NFP.UI\\PCH.NFP.UI.Client\\PCH.NFP.UI.Client.csproj|solutionrelative:pch.nfp.ui\\pch.nfp.ui.client\\models\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74C031AD-D1D5-40DC-A14B-EE9C92E0D0CC}|PCH.NFP.UI\\PCH.NFP.UI\\PCH.NFP.UI.csproj|d:\\projects\\nfp\\pch.nfp.ui\\pch.nfp.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74C031AD-D1D5-40DC-A14B-EE9C92E0D0CC}|PCH.NFP.UI\\PCH.NFP.UI\\PCH.NFP.UI.csproj|solutionrelative:pch.nfp.ui\\pch.nfp.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60C012F9-2A2D-4867-8F4F-EA1D321A6412}|PCH.NFP.UI\\PCH.NFP.UI.Client\\PCH.NFP.UI.Client.csproj|d:\\projects\\nfp\\pch.nfp.ui\\pch.nfp.ui.client\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{60C012F9-2A2D-4867-8F4F-EA1D321A6412}|PCH.NFP.UI\\PCH.NFP.UI.Client\\PCH.NFP.UI.Client.csproj|solutionrelative:pch.nfp.ui\\pch.nfp.ui.client\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60C012F9-2A2D-4867-8F4F-EA1D321A6412}|PCH.NFP.UI\\PCH.NFP.UI.Client\\PCH.NFP.UI.Client.csproj|d:\\projects\\nfp\\pch.nfp.ui\\pch.nfp.ui.client\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{60C012F9-2A2D-4867-8F4F-EA1D321A6412}|PCH.NFP.UI\\PCH.NFP.UI.Client\\PCH.NFP.UI.Client.csproj|solutionrelative:pch.nfp.ui\\pch.nfp.ui.client\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60C012F9-2A2D-4867-8F4F-EA1D321A6412}|PCH.NFP.UI\\PCH.NFP.UI.Client\\PCH.NFP.UI.Client.csproj|d:\\projects\\nfp\\pch.nfp.ui\\pch.nfp.ui.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60C012F9-2A2D-4867-8F4F-EA1D321A6412}|PCH.NFP.UI\\PCH.NFP.UI.Client\\PCH.NFP.UI.Client.csproj|solutionrelative:pch.nfp.ui\\pch.nfp.ui.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60C012F9-2A2D-4867-8F4F-EA1D321A6412}|PCH.NFP.UI\\PCH.NFP.UI.Client\\PCH.NFP.UI.Client.csproj|d:\\projects\\nfp\\pch.nfp.ui\\pch.nfp.ui.client\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{60C012F9-2A2D-4867-8F4F-EA1D321A6412}|PCH.NFP.UI\\PCH.NFP.UI.Client\\PCH.NFP.UI.Client.csproj|solutionrelative:pch.nfp.ui\\pch.nfp.ui.client\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2D84FAA-1626-45D2-9443-6ADD8F756346}|PCH.NFP.API\\PCH.NFP.API.csproj|d:\\projects\\nfp\\pch.nfp.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E2D84FAA-1626-45D2-9443-6ADD8F756346}|PCH.NFP.API\\PCH.NFP.API.csproj|solutionrelative:pch.nfp.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2D84FAA-1626-45D2-9443-6ADD8F756346}|PCH.NFP.API\\PCH.NFP.API.csproj|d:\\projects\\nfp\\pch.nfp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2D84FAA-1626-45D2-9443-6ADD8F756346}|PCH.NFP.API\\PCH.NFP.API.csproj|solutionrelative:pch.nfp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2D84FAA-1626-45D2-9443-6ADD8F756346}|PCH.NFP.API\\PCH.NFP.API.csproj|d:\\projects\\nfp\\pch.nfp.api\\pch.nfp.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{E2D84FAA-1626-45D2-9443-6ADD8F756346}|PCH.NFP.API\\PCH.NFP.API.csproj|solutionrelative:pch.nfp.api\\pch.nfp.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{7f40df72-066b-4810-a08b-c0fbed76c948}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateProduct.cs",
+              "DocumentMoniker": "D:\\Projects\\NFP\\PCH.NFP.API\\Features\\Product\\CreateProduct.cs",
+              "RelativeDocumentMoniker": "PCH.NFP.API\\Features\\Product\\CreateProduct.cs",
+              "ToolTip": "D:\\Projects\\NFP\\PCH.NFP.API\\Features\\Product\\CreateProduct.cs",
+              "RelativeToolTip": "PCH.NFP.API\\Features\\Product\\CreateProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T19:47:18.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "D:\\Projects\\NFP\\PCH.NFP.UI\\PCH.NFP.UI.Client\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "PCH.NFP.UI\\PCH.NFP.UI.Client\\Services\\ProductService.cs",
+              "ToolTip": "D:\\Projects\\NFP\\PCH.NFP.UI\\PCH.NFP.UI.Client\\Services\\ProductService.cs",
+              "RelativeToolTip": "PCH.NFP.UI\\PCH.NFP.UI.Client\\Services\\ProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T19:45:51.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "D:\\Projects\\NFP\\PCH.NFP.UI\\PCH.NFP.UI.Client\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "PCH.NFP.UI\\PCH.NFP.UI.Client\\Pages\\Counter.razor",
+              "ToolTip": "D:\\Projects\\NFP\\PCH.NFP.UI\\PCH.NFP.UI.Client\\Pages\\Counter.razor",
+              "RelativeToolTip": "PCH.NFP.UI\\PCH.NFP.UI.Client\\Pages\\Counter.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-31T19:45:40.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Product.razor",
+              "DocumentMoniker": "D:\\Projects\\NFP\\PCH.NFP.UI\\PCH.NFP.UI.Client\\Pages\\Product.razor",
+              "RelativeDocumentMoniker": "PCH.NFP.UI\\PCH.NFP.UI.Client\\Pages\\Product.razor",
+              "ToolTip": "D:\\Projects\\NFP\\PCH.NFP.UI\\PCH.NFP.UI.Client\\Pages\\Product.razor",
+              "RelativeToolTip": "PCH.NFP.UI\\PCH.NFP.UI.Client\\Pages\\Product.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-31T19:39:19.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\NFP\\PCH.NFP.UI\\PCH.NFP.UI\\Program.cs",
+              "RelativeDocumentMoniker": "PCH.NFP.UI\\PCH.NFP.UI\\Program.cs",
+              "ToolTip": "D:\\Projects\\NFP\\PCH.NFP.UI\\PCH.NFP.UI\\Program.cs",
+              "RelativeToolTip": "PCH.NFP.UI\\PCH.NFP.UI\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T19:35:50.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Weather.razor",
+              "DocumentMoniker": "D:\\Projects\\NFP\\PCH.NFP.UI\\PCH.NFP.UI.Client\\Pages\\Weather.razor",
+              "RelativeDocumentMoniker": "PCH.NFP.UI\\PCH.NFP.UI.Client\\Pages\\Weather.razor",
+              "ToolTip": "D:\\Projects\\NFP\\PCH.NFP.UI\\PCH.NFP.UI.Client\\Pages\\Weather.razor",
+              "RelativeToolTip": "PCH.NFP.UI\\PCH.NFP.UI.Client\\Pages\\Weather.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-31T19:32:19.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Home.razor",
+              "DocumentMoniker": "D:\\Projects\\NFP\\PCH.NFP.UI\\PCH.NFP.UI.Client\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "PCH.NFP.UI\\PCH.NFP.UI.Client\\Pages\\Home.razor",
+              "ToolTip": "D:\\Projects\\NFP\\PCH.NFP.UI\\PCH.NFP.UI.Client\\Pages\\Home.razor",
+              "RelativeToolTip": "PCH.NFP.UI\\PCH.NFP.UI.Client\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-31T19:32:17.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "D:\\Projects\\NFP\\PCH.NFP.UI\\PCH.NFP.UI.Client\\Models\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "PCH.NFP.UI\\PCH.NFP.UI.Client\\Models\\ApiResponse.cs",
+              "ToolTip": "D:\\Projects\\NFP\\PCH.NFP.UI\\PCH.NFP.UI.Client\\Models\\ApiResponse.cs",
+              "RelativeToolTip": "PCH.NFP.UI\\PCH.NFP.UI.Client\\Models\\ApiResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T19:29:43.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateProductRequest.cs",
+              "DocumentMoniker": "D:\\Projects\\NFP\\PCH.NFP.UI\\PCH.NFP.UI.Client\\Models\\CreateProductRequest.cs",
+              "RelativeDocumentMoniker": "PCH.NFP.UI\\PCH.NFP.UI.Client\\Models\\CreateProductRequest.cs",
+              "ToolTip": "D:\\Projects\\NFP\\PCH.NFP.UI\\PCH.NFP.UI.Client\\Models\\CreateProductRequest.cs",
+              "RelativeToolTip": "PCH.NFP.UI\\PCH.NFP.UI.Client\\Models\\CreateProductRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T19:29:16.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Projects\\NFP\\PCH.NFP.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "PCH.NFP.API\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Projects\\NFP\\PCH.NFP.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "PCH.NFP.API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-31T19:25:19.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PCH.NFP.API.http",
+              "DocumentMoniker": "D:\\Projects\\NFP\\PCH.NFP.API\\PCH.NFP.API.http",
+              "RelativeDocumentMoniker": "PCH.NFP.API\\PCH.NFP.API.http",
+              "ToolTip": "D:\\Projects\\NFP\\PCH.NFP.API\\PCH.NFP.API.http",
+              "RelativeToolTip": "PCH.NFP.API\\PCH.NFP.API.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-05-31T19:18:49.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\NFP\\PCH.NFP.UI\\PCH.NFP.UI.Client\\Program.cs",
+              "RelativeDocumentMoniker": "PCH.NFP.UI\\PCH.NFP.UI.Client\\Program.cs",
+              "ToolTip": "D:\\Projects\\NFP\\PCH.NFP.UI\\PCH.NFP.UI.Client\\Program.cs",
+              "RelativeToolTip": "PCH.NFP.UI\\PCH.NFP.UI.Client\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T19:06:48.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\NFP\\PCH.NFP.API\\Program.cs",
+              "RelativeDocumentMoniker": "PCH.NFP.API\\Program.cs",
+              "ToolTip": "D:\\Projects\\NFP\\PCH.NFP.API\\Program.cs",
+              "RelativeToolTip": "PCH.NFP.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T19:05:50.281Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

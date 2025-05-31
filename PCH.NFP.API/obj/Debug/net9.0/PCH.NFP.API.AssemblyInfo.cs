@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PCH.NFP.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f666bf29927f78b79ded3ad4c55384ffa65f2d80")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+43eb45a9f8097e7480142711d38aafaa692f1bf0")]
 [assembly: System.Reflection.AssemblyProductAttribute("PCH.NFP.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PCH.NFP.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
