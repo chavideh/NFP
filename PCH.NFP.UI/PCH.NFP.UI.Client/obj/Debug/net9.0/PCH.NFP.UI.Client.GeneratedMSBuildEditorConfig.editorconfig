@@ -35,6 +35,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Projects/NFP/PCH.NFP.UI/PCH.NFP.UI.Client/Pages/Auth/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aFxMb2dpbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Projects/NFP/PCH.NFP.UI/PCH.NFP.UI.Client/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -43,8 +47,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/NFP/PCH.NFP.UI/PCH.NFP.UI.Client/Pages/Product.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdC5yYXpvcg==
+[D:/Projects/NFP/PCH.NFP.UI/PCH.NFP.UI.Client/Pages/Product/AddProductDialog.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdFxBZGRQcm9kdWN0RGlhbG9nLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/NFP/PCH.NFP.UI/PCH.NFP.UI.Client/Pages/Product/EditProductDialog.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdFxFZGl0UHJvZHVjdERpYWxvZy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/NFP/PCH.NFP.UI/PCH.NFP.UI.Client/Pages/Product/Product.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdFxQcm9kdWN0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Projects/NFP/PCH.NFP.UI/PCH.NFP.UI.Client/Pages/Weather.razor]

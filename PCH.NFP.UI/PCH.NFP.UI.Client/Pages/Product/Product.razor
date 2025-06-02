@@ -1,0 +1,169 @@
+﻿@page "/product"
+@using Microsoft.AspNetCore.Authorization
+@using PCH.NFP.Shared.Models
+
+
+
+@inject ProductService ProductService
+@inject ISnackbar Snackbar
+@inject IDialogService DialogService
+@attribute [Authorize]
+
+<PageTitle>محصولات</PageTitle>
+
+<MudDivider DividerType="DividerType.Middle" Class="my-3" />
+<MudDataGrid @ref="grid" T="ProductDto"
+             ServerData="LoadServerData"
+             Loading="@_loading"
+             RowsPerPage="2"
+             Hover="true"
+             Bordered="true"
+             Dense="true">
+
+    <ToolBarContent>
+        <MudText Typo="Typo.h6">فهرست محصولات</MudText>
+        <MudSpacer />
+        <MudButton Color="Color.Primary" Size="Size.Small" OnClick="@(e => AddItem())">
+            <MudIcon Icon="@Icons.Material.Filled.Add" />
+        </MudButton>
+
+
+    </ToolBarContent>
+    <Columns>
+        <PropertyColumn Property="x => x.Id" Title="شناسه" />
+        <PropertyColumn Property="x => x.Code" Title="کد محصول" />
+        <PropertyColumn Property="x => x.Title" Title="عنوان محصول" />
+        <PropertyColumn Property="x => x.IranCode" Title="ایران کد" />
+        <PropertyColumn Property="x => x.Description" Title="توضیحات" />
+
+        <TemplateColumn CellClass="d-flex justify-end " StickyRight="true"   Title="عملیات">
+            <CellTemplate >
+                <MudButton Color="Color.Primary" Size="Size.Small" OnClick="@(e => EditItem(context.Item))">
+                    <MudIcon Icon="@Icons.Material.Filled.Edit" />
+                </MudButton>
+                <MudButton Color="Color.Error" Size="Size.Small" OnClick="@(e => DeleteItem(context.Item))">
+                    <MudIcon Icon="@Icons.Material.Filled.Delete" />
+                </MudButton>
+            </CellTemplate>
+        </TemplateColumn>
+    </Columns>
+
+    <PagerContent>
+        <div class="d-flex flex-column align-center">
+            <MudPagination Count="@_totalPages"
+                           @bind-SelectedPage="_currentPage"
+                           Variant="Variant.Filled"
+                           Color="Color.Primary"
+                           Class="my-4"
+                           ShowFirstButton="true"
+                           ShowLastButton="true"
+                           SelectedChanged="ReloadData" />
+        </div>
+    </PagerContent>
+
+</MudDataGrid>
+
+
+
+@code {
+
+    private bool _loading = false;
+    bool _expanded = false;
+    private MudDataGrid<ProductDto> grid;
+
+    private int _currentPage = 1;
+    private int _totalPages = 1;
+
+
+    private async Task<GridData<ProductDto>> LoadServerData(GridState<ProductDto> state)
+    {
+        _loading = true;
+
+
+        var pageSize = state.PageSize;
+
+
+        var response = await ProductService.GetProductsAsync(_currentPage, pageSize);
+
+        if (!response.Success || response.Data == null)
+        {
+            Snackbar.Add(response.Message ?? "خطا در بارگذاری اطلاعات", Severity.Error);
+            _loading = false;
+            return new GridData<ProductDto>() { TotalItems = 0, Items = new List<ProductDto>() };
+        }
+
+        var totalItems = response.Data.TotalItems;
+        _totalPages = (int)Math.Ceiling(totalItems / (double)state.PageSize);
+
+        _loading = false;
+        return new GridData<ProductDto>
+        {
+            Items = response.Data.Items,
+            TotalItems = response.Data.TotalItems
+        };
+    }
+
+    private async Task ReloadData(int page)
+    {
+        _currentPage = page;
+        await grid.ReloadServerData(); // grid باید به MudDataGrid ارجاع داده بشه
+    }
+
+    private async Task EditItem(ProductDto product)
+    {
+        var parameters = new DialogParameters { ["Product"] = product };
+
+        var options = new DialogOptions() { CloseButton = true, MaxWidth = MaxWidth.Small, FullWidth = true };
+
+        var dialog = DialogService.Show<EditProductDialog>("ویرایش محصول", parameters, options);
+
+        var result = await dialog.Result;
+
+        if (!result.Canceled)
+        {
+            await grid.ReloadServerData();
+        }
+    }
+
+    private async Task AddItem()
+    {
+        var parameters = new DialogParameters { };
+        var options = new DialogOptions() { CloseButton = true, MaxWidth = MaxWidth.Small, FullWidth = true };
+
+        var dialog = DialogService.Show<AddProductDialog>("افزودن محصول", parameters, options);
+
+        var result = await dialog.Result;
+
+        if (!result.Canceled)
+        {
+            await grid.ReloadServerData();
+        }
+    }
+
+    private async Task DeleteItem(ProductDto product)
+    {
+        bool? confirmed = await DialogService.ShowMessageBox(
+            "حذف محصول",
+            $"آیا مطمئن هستید می‌خواهید محصول '{product.Title}' را حذف کنید؟",
+            yesText: "بله", noText: "خیر");
+
+        if (confirmed.HasValue && confirmed.Value)
+        {
+            var result = await ProductService.DeleteProductAsync(product.Id);
+            if (result.Success)
+            {
+                Snackbar.Add(result.Message, Severity.Success);
+                await grid.ReloadServerData();
+            }
+            else
+            {
+                Snackbar.Add("خطا در حذف محصول: " + result.Message, Severity.Error);
+            }
+        }
+    }
+
+    private void OnExpandCollapseClick()
+    {
+        _expanded = !_expanded;
+    }
+}

@@ -63,7 +63,6 @@ D:\Projects\NFP\PCH.NFP.UI\PCH.NFP.UI\obj\Debug\net9.0\staticwebassets.build.jso
 D:\Projects\NFP\PCH.NFP.UI\PCH.NFP.UI\obj\Debug\net9.0\staticwebassets.build.json.cache
 D:\Projects\NFP\PCH.NFP.UI\PCH.NFP.UI\obj\Debug\net9.0\staticwebassets.development.json
 D:\Projects\NFP\PCH.NFP.UI\PCH.NFP.UI\obj\Debug\net9.0\staticwebassets.build.endpoints.json
-D:\Projects\NFP\PCH.NFP.UI\PCH.NFP.UI\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 D:\Projects\NFP\PCH.NFP.UI\PCH.NFP.UI\obj\Debug\net9.0\PCH.NFP.UI.csproj.Up2Date
 D:\Projects\NFP\PCH.NFP.UI\PCH.NFP.UI\obj\Debug\net9.0\PCH.NFP.UI.dll
 D:\Projects\NFP\PCH.NFP.UI\PCH.NFP.UI\obj\Debug\net9.0\refint\PCH.NFP.UI.dll
@@ -74,3 +73,16 @@ D:\Projects\NFP\PCH.NFP.UI\PCH.NFP.UI\bin\Debug\net9.0\Microsoft.Extensions.Diag
 D:\Projects\NFP\PCH.NFP.UI\PCH.NFP.UI\bin\Debug\net9.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
 D:\Projects\NFP\PCH.NFP.UI\PCH.NFP.UI\bin\Debug\net9.0\Microsoft.Extensions.Http.dll
 D:\Projects\NFP\PCH.NFP.UI\PCH.NFP.UI\bin\Debug\net9.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\Projects\NFP\PCH.NFP.UI\PCH.NFP.UI\bin\Debug\net9.0\PCH.NFP.Shared.dll
+D:\Projects\NFP\PCH.NFP.UI\PCH.NFP.UI\bin\Debug\net9.0\PCH.NFP.Shared.pdb
+D:\Projects\NFP\PCH.NFP.UI\PCH.NFP.UI\obj\Debug\net9.0\compressed\rvplv4xh8u-n2a91bwow1.gz
+D:\Projects\NFP\PCH.NFP.UI\PCH.NFP.UI\bin\Debug\net9.0\Blazor.PersianDatePicker.dll
+D:\Projects\NFP\PCH.NFP.UI\PCH.NFP.UI\obj\Debug\net9.0\compressed\rh570c1wr7-gglb8uprg9.gz
+D:\Projects\NFP\PCH.NFP.UI\PCH.NFP.UI\obj\Debug\net9.0\compressed\ipz4bbll4i-5orj4v86s0.gz
+D:\Projects\NFP\PCH.NFP.UI\PCH.NFP.UI\bin\Debug\net9.0\Blazored.LocalStorage.dll
+D:\Projects\NFP\PCH.NFP.UI\PCH.NFP.UI\bin\Debug\net9.0\Microsoft.AspNetCore.Components.Authorization.dll
+D:\Projects\NFP\PCH.NFP.UI\PCH.NFP.UI\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Projects\NFP\PCH.NFP.UI\PCH.NFP.UI\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Projects\NFP\PCH.NFP.UI\PCH.NFP.UI\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+D:\Projects\NFP\PCH.NFP.UI\PCH.NFP.UI\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+D:\Projects\NFP\PCH.NFP.UI\PCH.NFP.UI\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll

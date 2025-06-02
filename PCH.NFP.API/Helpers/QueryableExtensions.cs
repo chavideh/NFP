@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using AutoMapper.QueryableExtensions;
 using Microsoft.EntityFrameworkCore;
-using PCH.NFP.API.Models;
+using PCH.NFP.Shared.Models;
 
 namespace PCH.NFP.API.Helpers;
 

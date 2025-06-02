@@ -2,7 +2,7 @@
 using Carter;
 using MediatR;
 using Microsoft.AspNetCore.Identity;
-using PCH.NFP.API.Models;
+using PCH.NFP.Shared.Models;
 using PCH.NFP.API.Entities;
 
 

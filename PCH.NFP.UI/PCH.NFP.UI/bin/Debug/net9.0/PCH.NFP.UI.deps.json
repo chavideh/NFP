@@ -8,13 +8,39 @@
     ".NETCoreApp,Version=v9.0": {
       "PCH.NFP.UI/1.0.0": {
         "dependencies": {
+          "Microsoft.AspNetCore.Components.Authorization": "9.0.5",
           "Microsoft.AspNetCore.Components.WebAssembly.Server": "9.0.5",
-          "PCH.NFP.UI.Client": "1.0.0"
+          "PCH.NFP.UI.Client": "1.0.0",
+          "System.IdentityModel.Tokens.Jwt": "8.11.0"
         },
         "runtime": {
           "PCH.NFP.UI.dll": {}
         }
       },
+      "Blazor.PersianDatePicker/3.5.1": {
+        "dependencies": {
+          "Delegate.SassBuilder": "1.4.0",
+          "Microsoft.AspNetCore.Components.Web": "9.0.5"
+        },
+        "runtime": {
+          "lib/net5.0/Blazor.PersianDatePicker.dll": {
+            "assemblyVersion": "3.5.1.0",
+            "fileVersion": "3.5.1.0"
+          }
+        }
+      },
+      "Blazored.LocalStorage/4.5.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "9.0.5"
+        },
+        "runtime": {
+          "lib/net8.0/Blazored.LocalStorage.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Delegate.SassBuilder/1.4.0": {},
       "Microsoft.AspNetCore.Authorization/9.0.5": {
         "dependencies": {
           "Microsoft.AspNetCore.Metadata": "9.0.5",
@@ -41,6 +67,18 @@
         }
       },
       "Microsoft.AspNetCore.Components.Analyzers/9.0.5": {},
+      "Microsoft.AspNetCore.Components.Authorization/9.0.5": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Authorization": "9.0.5",
+          "Microsoft.AspNetCore.Components": "9.0.5"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.AspNetCore.Components.Authorization.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.525.22904"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Components.Forms/9.0.5": {
         "dependencies": {
           "Microsoft.AspNetCore.Components": "9.0.5"
@@ -334,6 +372,48 @@
           }
         }
       },
+      "Microsoft.IdentityModel.Abstractions/8.11.0": {
+        "runtime": {
+          "lib/net9.0/Microsoft.IdentityModel.Abstractions.dll": {
+            "assemblyVersion": "8.11.0.0",
+            "fileVersion": "8.11.0.60523"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.JsonWebTokens/8.11.0": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Tokens": "8.11.0"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll": {
+            "assemblyVersion": "8.11.0.0",
+            "fileVersion": "8.11.0.60523"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Logging/8.11.0": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Abstractions": "8.11.0"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.IdentityModel.Logging.dll": {
+            "assemblyVersion": "8.11.0.0",
+            "fileVersion": "8.11.0.60523"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Tokens/8.11.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.5",
+          "Microsoft.IdentityModel.Logging": "8.11.0"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.IdentityModel.Tokens.dll": {
+            "assemblyVersion": "8.11.0.0",
+            "fileVersion": "8.11.0.60523"
+          }
+        }
+      },
       "Microsoft.JSInterop/9.0.5": {
         "runtime": {
           "lib/net9.0/Microsoft.JSInterop.dll": {
@@ -366,11 +446,36 @@
           }
         }
       },
+      "System.IdentityModel.Tokens.Jwt/8.11.0": {
+        "dependencies": {
+          "Microsoft.IdentityModel.JsonWebTokens": "8.11.0",
+          "Microsoft.IdentityModel.Tokens": "8.11.0"
+        },
+        "runtime": {
+          "lib/net9.0/System.IdentityModel.Tokens.Jwt.dll": {
+            "assemblyVersion": "8.11.0.0",
+            "fileVersion": "8.11.0.60523"
+          }
+        }
+      },
+      "PCH.NFP.Shared/1.0.0": {
+        "runtime": {
+          "PCH.NFP.Shared.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "PCH.NFP.UI.Client/1.0.0": {
         "dependencies": {
+          "Blazor.PersianDatePicker": "3.5.1",
+          "Blazored.LocalStorage": "4.5.0",
+          "Microsoft.AspNetCore.Components.Authorization": "9.0.5",
           "Microsoft.AspNetCore.Components.WebAssembly": "9.0.5",
           "Microsoft.Extensions.Http": "9.0.5",
-          "MudBlazor": "8.7.0"
+          "MudBlazor": "8.7.0",
+          "PCH.NFP.Shared": "1.0.0",
+          "System.IdentityModel.Tokens.Jwt": "8.11.0"
         },
         "runtime": {
           "PCH.NFP.UI.Client.dll": {
@@ -386,6 +491,27 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Blazor.PersianDatePicker/3.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-p/uKt/ID0itPah/IyK6qnNBZkIPFKrHhJ0JpIW698yJWFWoUt8qUwn5+w0jXPPwYdDT8vF0OJNM4W47nwAFRFA==",
+      "path": "blazor.persiandatepicker/3.5.1",
+      "hashPath": "blazor.persiandatepicker.3.5.1.nupkg.sha512"
+    },
+    "Blazored.LocalStorage/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6nZuJwA7zNIKx83IsObiHXZb09ponJOpCClU3en+hI8ZFvrOKXeOw+H7TegQZQrvdR1n9fkrVkEBQZg8vx6ZTw==",
+      "path": "blazored.localstorage/4.5.0",
+      "hashPath": "blazored.localstorage.4.5.0.nupkg.sha512"
+    },
+    "Delegate.SassBuilder/1.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3Jvvh4KvOzdy8EOFyh51M4imdjRyvdzg+WQ4Sb6osAyU9n/Wj7HAUxBbRM15Pas5gutS/zkUnDdLB1Vi5FbtvA==",
+      "path": "delegate.sassbuilder/1.4.0",
+      "hashPath": "delegate.sassbuilder.1.4.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authorization/9.0.5": {
       "type": "package",
@@ -407,6 +533,13 @@
       "sha512": "sha512-u9dQP0/bjkTVHFHVBV+8TYpBVerjbFfvD3nwwOfaoJ8VmyCHoBFbD8m4nxV+rfu+jVLe2FQF4skjHZLIjjFbyQ==",
       "path": "microsoft.aspnetcore.components.analyzers/9.0.5",
       "hashPath": "microsoft.aspnetcore.components.analyzers.9.0.5.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Components.Authorization/9.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-amVsHIy/+712NIC246Hwtha2GFRVxAwEl5REhNSpgY++aRAKRU6S0x3xrJT8/kU9tfNpXjHbMd3xMedqBb5iJA==",
+      "path": "microsoft.aspnetcore.components.authorization/9.0.5",
+      "hashPath": "microsoft.aspnetcore.components.authorization.9.0.5.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Components.Forms/9.0.5": {
       "type": "package",
@@ -583,6 +716,34 @@
       "path": "microsoft.extensions.primitives/9.0.5",
       "hashPath": "microsoft.extensions.primitives.9.0.5.nupkg.sha512"
     },
+    "Microsoft.IdentityModel.Abstractions/8.11.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-X92UuBmvHYtsVrD+R+senFn6wOtSVtliSZNTZI8oHD+WqhYLmLNlHH6avYcbXqEznozxshSYzD/DVAuz54jjtg==",
+      "path": "microsoft.identitymodel.abstractions/8.11.0",
+      "hashPath": "microsoft.identitymodel.abstractions.8.11.0.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.JsonWebTokens/8.11.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rLvApg2vqs/Kz5kVHwHUMAe3owInYrsPX8QP8CQktubX9R63P+J47nR/IOS4n6ddJCvGInUGRBKqcBGJtuA4Rw==",
+      "path": "microsoft.identitymodel.jsonwebtokens/8.11.0",
+      "hashPath": "microsoft.identitymodel.jsonwebtokens.8.11.0.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.Logging/8.11.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/JNOMdYOQ4Tgbdwu9GbEcRJEpzakizuECCE8dCgY5lKXyqZUdAKXyeq4zITgS81eZYThqjhQZUYaJxOPofbmrg==",
+      "path": "microsoft.identitymodel.logging/8.11.0",
+      "hashPath": "microsoft.identitymodel.logging.8.11.0.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.Tokens/8.11.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-E0iKSD9vv9X+tbHGriMTLkSNK/OOjxOPuf1dt9q32d25Ig+OZaidUqDoUTSS3mWTvPw+x5oXrCTHtDatbzRzTQ==",
+      "path": "microsoft.identitymodel.tokens/8.11.0",
+      "hashPath": "microsoft.identitymodel.tokens.8.11.0.nupkg.sha512"
+    },
     "Microsoft.JSInterop/9.0.5": {
       "type": "package",
       "serviceable": true,
@@ -603,6 +764,18 @@
       "sha512": "sha512-dgQ2MsgJAA1y6S0KmaOcGQWIHkJKA6XedC8X4VKXGRRcS3CFtgcytzT4LAxNoklNBqeveOyiHNEk6CG8a7YHYQ==",
       "path": "mudblazor/8.7.0",
       "hashPath": "mudblazor.8.7.0.nupkg.sha512"
+    },
+    "System.IdentityModel.Tokens.Jwt/8.11.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fDPoJMD4/puOlYaOESFCZNKy8X5Cw7URr9ibcHe0Qq3SrGhku9xVSxeXSNAP9RRahFQ/GbLfqO9AN1XD3Nxacw==",
+      "path": "system.identitymodel.tokens.jwt/8.11.0",
+      "hashPath": "system.identitymodel.tokens.jwt.8.11.0.nupkg.sha512"
+    },
+    "PCH.NFP.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "PCH.NFP.UI.Client/1.0.0": {
       "type": "project",

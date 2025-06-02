@@ -3,8 +3,8 @@ using FluentValidation;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using PCH.NFP.API.Data;
-using PCH.NFP.API.Models;
 using PCH.NFP.API.Entities;
+using PCH.NFP.Shared.Models;
 
 namespace PCH.NFP.API.Features;
 

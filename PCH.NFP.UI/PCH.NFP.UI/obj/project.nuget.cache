@@ -1,12 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "YexPLy6Vqr0=",
+  "dgSpecHash": "0JKyHtUFrNc=",
   "success": true,
   "projectFilePath": "D:\\Projects\\NFP\\PCH.NFP.UI\\PCH.NFP.UI\\PCH.NFP.UI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Peyman\\.nuget\\packages\\blazor.persiandatepicker\\3.5.1\\blazor.persiandatepicker.3.5.1.nupkg.sha512",
+    "C:\\Users\\Peyman\\.nuget\\packages\\blazored.localstorage\\4.5.0\\blazored.localstorage.4.5.0.nupkg.sha512",
+    "C:\\Users\\Peyman\\.nuget\\packages\\delegate.sassbuilder\\1.4.0\\delegate.sassbuilder.1.4.0.nupkg.sha512",
     "C:\\Users\\Peyman\\.nuget\\packages\\microsoft.aspnetcore.authorization\\9.0.5\\microsoft.aspnetcore.authorization.9.0.5.nupkg.sha512",
     "C:\\Users\\Peyman\\.nuget\\packages\\microsoft.aspnetcore.components\\9.0.5\\microsoft.aspnetcore.components.9.0.5.nupkg.sha512",
     "C:\\Users\\Peyman\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\9.0.5\\microsoft.aspnetcore.components.analyzers.9.0.5.nupkg.sha512",
+    "C:\\Users\\Peyman\\.nuget\\packages\\microsoft.aspnetcore.components.authorization\\9.0.5\\microsoft.aspnetcore.components.authorization.9.0.5.nupkg.sha512",
     "C:\\Users\\Peyman\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\9.0.5\\microsoft.aspnetcore.components.forms.9.0.5.nupkg.sha512",
     "C:\\Users\\Peyman\\.nuget\\packages\\microsoft.aspnetcore.components.web\\9.0.5\\microsoft.aspnetcore.components.web.9.0.5.nupkg.sha512",
     "C:\\Users\\Peyman\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\9.0.5\\microsoft.aspnetcore.components.webassembly.9.0.5.nupkg.sha512",
@@ -32,9 +36,14 @@
     "C:\\Users\\Peyman\\.nuget\\packages\\microsoft.extensions.options\\9.0.5\\microsoft.extensions.options.9.0.5.nupkg.sha512",
     "C:\\Users\\Peyman\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\9.0.5\\microsoft.extensions.options.configurationextensions.9.0.5.nupkg.sha512",
     "C:\\Users\\Peyman\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.5\\microsoft.extensions.primitives.9.0.5.nupkg.sha512",
+    "C:\\Users\\Peyman\\.nuget\\packages\\microsoft.identitymodel.abstractions\\8.11.0\\microsoft.identitymodel.abstractions.8.11.0.nupkg.sha512",
+    "C:\\Users\\Peyman\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\8.11.0\\microsoft.identitymodel.jsonwebtokens.8.11.0.nupkg.sha512",
+    "C:\\Users\\Peyman\\.nuget\\packages\\microsoft.identitymodel.logging\\8.11.0\\microsoft.identitymodel.logging.8.11.0.nupkg.sha512",
+    "C:\\Users\\Peyman\\.nuget\\packages\\microsoft.identitymodel.tokens\\8.11.0\\microsoft.identitymodel.tokens.8.11.0.nupkg.sha512",
     "C:\\Users\\Peyman\\.nuget\\packages\\microsoft.jsinterop\\9.0.5\\microsoft.jsinterop.9.0.5.nupkg.sha512",
     "C:\\Users\\Peyman\\.nuget\\packages\\microsoft.jsinterop.webassembly\\9.0.5\\microsoft.jsinterop.webassembly.9.0.5.nupkg.sha512",
-    "C:\\Users\\Peyman\\.nuget\\packages\\mudblazor\\8.7.0\\mudblazor.8.7.0.nupkg.sha512"
+    "C:\\Users\\Peyman\\.nuget\\packages\\mudblazor\\8.7.0\\mudblazor.8.7.0.nupkg.sha512",
+    "C:\\Users\\Peyman\\.nuget\\packages\\system.identitymodel.tokens.jwt\\8.11.0\\system.identitymodel.tokens.jwt.8.11.0.nupkg.sha512"
   ],
   "logs": []
 }

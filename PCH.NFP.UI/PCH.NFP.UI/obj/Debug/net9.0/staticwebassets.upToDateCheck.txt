@@ -1,2 +1,0 @@
-wwwroot\favicon.ico
-D:\Projects\NFP\PCH.NFP.UI\PCH.NFP.UI\wwwroot\favicon.ico

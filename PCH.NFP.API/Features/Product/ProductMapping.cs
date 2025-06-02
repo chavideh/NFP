@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
-using PCH.NFP.API.Models;
 using PCH.NFP.API.Entities;
+using PCH.NFP.Shared.Models;
 
 namespace PCH.NFP.API.Features;
 

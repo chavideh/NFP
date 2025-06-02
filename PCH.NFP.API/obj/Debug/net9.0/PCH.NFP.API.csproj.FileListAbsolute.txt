@@ -213,10 +213,11 @@ D:\Projects\NFP\PCH.NFP.API\obj\Debug\net9.0\staticwebassets.build.json
 D:\Projects\NFP\PCH.NFP.API\obj\Debug\net9.0\staticwebassets.build.json.cache
 D:\Projects\NFP\PCH.NFP.API\obj\Debug\net9.0\staticwebassets.development.json
 D:\Projects\NFP\PCH.NFP.API\obj\Debug\net9.0\staticwebassets.build.endpoints.json
-D:\Projects\NFP\PCH.NFP.API\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 D:\Projects\NFP\PCH.NFP.API\obj\Debug\net9.0\PCH.NFP..CA3D1C0D.Up2Date
 D:\Projects\NFP\PCH.NFP.API\obj\Debug\net9.0\PCH.NFP.API.dll
 D:\Projects\NFP\PCH.NFP.API\obj\Debug\net9.0\refint\PCH.NFP.API.dll
 D:\Projects\NFP\PCH.NFP.API\obj\Debug\net9.0\PCH.NFP.API.pdb
 D:\Projects\NFP\PCH.NFP.API\obj\Debug\net9.0\PCH.NFP.API.genruntimeconfig.cache
 D:\Projects\NFP\PCH.NFP.API\obj\Debug\net9.0\ref\PCH.NFP.API.dll
+D:\Projects\NFP\PCH.NFP.API\bin\Debug\net9.0\PCH.NFP.Shared.dll
+D:\Projects\NFP\PCH.NFP.API\bin\Debug\net9.0\PCH.NFP.Shared.pdb

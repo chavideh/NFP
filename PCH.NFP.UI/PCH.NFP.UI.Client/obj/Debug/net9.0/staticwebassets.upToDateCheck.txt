@@ -1,4 +1,0 @@
-wwwroot\appsettings.Development.json
-wwwroot\appsettings.json
-D:\Projects\NFP\PCH.NFP.UI\PCH.NFP.UI.Client\wwwroot\appsettings.Development.json
-D:\Projects\NFP\PCH.NFP.UI\PCH.NFP.UI.Client\wwwroot\appsettings.json

@@ -20,7 +20,8 @@
           "Microsoft.CodeAnalysis.Workspaces.MSBuild": "4.13.0",
           "Microsoft.EntityFrameworkCore": "9.0.3",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.3",
-          "Microsoft.EntityFrameworkCore.Tools": "9.0.3"
+          "Microsoft.EntityFrameworkCore.Tools": "9.0.3",
+          "PCH.NFP.Shared": "1.0.0"
         },
         "runtime": {
           "PCH.NFP.API.dll": {}
@@ -1244,6 +1245,14 @@
             "fileVersion": "8.0.23.53103"
           }
         }
+      },
+      "PCH.NFP.Shared/1.0.0": {
+        "runtime": {
+          "PCH.NFP.Shared.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -1938,6 +1947,11 @@
       "sha512": "sha512-Obg3a90MkOw9mYKxrardLpY2u0axDMrSmy4JCdq2cYbelM2cUwmUir5Bomvd1yxmPL9h5LVHU1tuKBZpUjfASg==",
       "path": "system.windows.extensions/8.0.0",
       "hashPath": "system.windows.extensions.8.0.0.nupkg.sha512"
+    },
+    "PCH.NFP.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

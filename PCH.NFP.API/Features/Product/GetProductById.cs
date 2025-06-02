@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using MediatR;
 using PCH.NFP.API.Data;
-using PCH.NFP.API.Models;
+using PCH.NFP.Shared.Models;
 
 namespace PCH.NFP.API.Features;
 

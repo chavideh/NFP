@@ -8,7 +8,9 @@
 
 
   <ItemGroup>
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.11.0" />
     <ProjectReference Include="..\PCH.NFP.UI.Client\PCH.NFP.UI.Client.csproj" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.Authorization" Version="9.0.5" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="9.*" />
   </ItemGroup>
 

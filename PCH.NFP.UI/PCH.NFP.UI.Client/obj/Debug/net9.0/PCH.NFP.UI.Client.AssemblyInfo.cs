@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PCH.NFP.UI.Client")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+43eb45a9f8097e7480142711d38aafaa692f1bf0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e057252285458af0b339e9df01dd5c911e393571")]
 [assembly: System.Reflection.AssemblyProductAttribute("PCH.NFP.UI.Client")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PCH.NFP.UI.Client")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

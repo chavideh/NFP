@@ -1,3 +1,5 @@
+using Blazored.LocalStorage;
+using Microsoft.AspNetCore.Components.Authorization;
 using MudBlazor.Services;
 using PCH.NFP.UI.Client;
 using PCH.NFP.UI.Client.Pages;
@@ -10,11 +12,16 @@ builder.Services.AddMudServices();
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
-    .AddInteractiveWebAssemblyComponents();
+      .AddInteractiveServerComponents()
+      .AddInteractiveWebAssemblyComponents();
 
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https://localhost:7167") });
 
 builder.Services.AddScoped<PCH.NFP.UI.Client.ProductService>();
+
+builder.Services.AddScoped<AuthenticationStateProvider, TokenAuthenticationStateProvider>();
+builder.Services.AddAuthorizationCore();
+builder.Services.AddBlazoredLocalStorage(); // برای ذخیره توکن
 
 var app = builder.Build();
 
@@ -37,6 +44,7 @@ app.UseAntiforgery();
 
 app.MapStaticAssets();
 app.MapRazorComponents<App>()
+     .AddInteractiveServerRenderMode()
     .AddInteractiveWebAssemblyRenderMode()
     .AddAdditionalAssemblies(typeof(PCH.NFP.UI.Client._Imports).Assembly);
 
