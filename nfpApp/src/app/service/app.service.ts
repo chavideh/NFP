@@ -39,8 +39,9 @@ export class AppService {
             this.toggleLanguage(item);
         }
 
-        val = localStorage.getItem('rtlClass'); // rtl, ltr
-        val = val || $themeConfig.rtlClass;
+        // enforce RTL layout at all times
+        val = $themeConfig.rtlClass; // always rtl
+        localStorage.setItem('rtlClass', val);
         this.store.dispatch({ type: 'toggleRTL', payload: val });
 
         val = localStorage.getItem('animation'); // animate__fadeIn, animate__fadeInDown, animate__fadeInUp, animate__fadeInLeft, animate__fadeInRight, animate__slideInDown, animate__slideInLeft, animate__slideInRight, animate__zoomIn
