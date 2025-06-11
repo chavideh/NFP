@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Routes, RouterModule } from '@angular/router';
+import { FormsModule } from '@angular/forms';
 
 // shared module
 import { SharedModule } from 'src/shared.module';
@@ -21,7 +22,7 @@ const routes: Routes = [
     { path: 'auth/cover-register', component: CoverRegisterComponent, data: { title: 'Cover Register' } },
 ];
 @NgModule({
-    imports: [RouterModule.forChild(routes), CommonModule, SharedModule.forRoot()],
+    imports: [RouterModule.forChild(routes), CommonModule, FormsModule, SharedModule.forRoot()],
     declarations: [
         CoverLockscreenComponent,
         CoverLoginComponent,
