@@ -31,7 +31,7 @@ export class CoverLoginComponent {
     changeLanguage(item: any) {
         this.translate.use(item.code);
         this.appSetting.toggleLanguage(item);
-        if (this.store.locale?.toLowerCase() === 'ae') {
+        if (this.store.locale?.toLowerCase() === 'fa') {
             this.storeData.dispatch({ type: 'toggleRTL', payload: 'rtl' });
         } else {
             this.storeData.dispatch({ type: 'toggleRTL', payload: 'ltr' });
