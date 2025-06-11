@@ -81,11 +81,11 @@
                         <h1 class="text-3xl font-extrabold uppercase !leading-snug text-primary md:text-4xl">Sign in</h1>
                         <p class="text-base font-bold leading-normal text-white-dark">Enter your email and password to login</p>
                     </div>
-                    <form class="space-y-5 dark:text-white" (submit)="router.navigate(['/'])">
+                    <form class="space-y-5 dark:text-white" (ngSubmit)="login()" #f="ngForm">
                         <div>
-                            <label for="Email">Email</label>
+                            <label for="Email">Username</label>
                             <div class="relative text-white-dark">
-                                <input id="Email" type="email" placeholder="Enter Email" class="form-input ps-10 placeholder:text-white-dark" />
+                                <input id="Email" name="username" [(ngModel)]="username" type="text" placeholder="Enter Username" class="form-input ps-10 placeholder:text-white-dark" />
                                 <span class="absolute start-4 top-1/2 -translate-y-1/2">
                                     <icon-mail [fill]="true" />
                                 </span>
@@ -94,7 +94,7 @@
                         <div>
                             <label for="Password">Password</label>
                             <div class="relative text-white-dark">
-                                <input id="Password" type="password" placeholder="Enter Password" class="form-input ps-10 placeholder:text-white-dark" />
+                                <input id="Password" name="password" [(ngModel)]="password" type="password" placeholder="Enter Password" class="form-input ps-10 placeholder:text-white-dark" />
                                 <span class="absolute start-4 top-1/2 -translate-y-1/2">
                                     <icon-lock-dots [fill]="true" />
                                 </span>

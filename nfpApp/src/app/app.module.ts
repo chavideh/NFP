@@ -3,7 +3,7 @@ import { BrowserModule, Title } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { HttpBackend, HttpClient, HttpClientModule } from '@angular/common/http';
+import { HttpBackend, HttpClient, HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
 
 //Routes
@@ -36,6 +36,10 @@ import { FooterComponent } from './layouts/footer';
 import { SidebarComponent } from './layouts/sidebar';
 import { ThemeCustomizerComponent } from './layouts/theme-customizer';
 
+import { AuthInterceptor } from './auth/auth.interceptor';
+import { AuthGuard } from './auth/auth.guard';
+import { AuthService } from './service/auth.service';
+
 @NgModule({
     imports: [
         RouterModule.forRoot(routes, { scrollPositionRestoration: 'enabled' }),
@@ -64,7 +68,12 @@ import { ThemeCustomizerComponent } from './layouts/theme-customizer';
         AuthLayout,
     ],
 
-    providers: [Title],
+    providers: [
+        Title,
+        AuthGuard,
+        AuthService,
+        { provide: HTTP_INTERCEPTORS, useClass: AuthInterceptor, multi: true },
+    ],
     bootstrap: [AppComponent],
 })
 export class AppModule {}
