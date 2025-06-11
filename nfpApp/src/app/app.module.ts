@@ -32,6 +32,7 @@ import { IndexComponent } from './index';
 // Layouts
 import { AppLayout } from './layouts/app-layout';
 import { AuthLayout } from './layouts/auth-layout';
+import { LoginComponent } from './login';
 
 import { HeaderComponent } from './layouts/header';
 import { FooterComponent } from './layouts/footer';
@@ -56,7 +57,7 @@ import { ThemeCustomizerComponent } from './layouts/theme-customizer';
         StoreModule.forRoot({ index: indexReducer }),
         SharedModule.forRoot(),
     ],
-    declarations: [AppComponent, HeaderComponent, FooterComponent, SidebarComponent, ThemeCustomizerComponent, IndexComponent, AppLayout, AuthLayout],
+    declarations: [AppComponent, HeaderComponent, FooterComponent, SidebarComponent, ThemeCustomizerComponent, IndexComponent, AppLayout, AuthLayout, LoginComponent],
     providers: [Title],
     bootstrap: [AppComponent],
 })

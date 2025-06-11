@@ -4,6 +4,7 @@ import { Routes } from '@angular/router';
 import { IndexComponent } from './index';
 import { AppLayout } from './layouts/app-layout';
 import { AuthLayout } from './layouts/auth-layout';
+import { LoginComponent } from './login';
 
 export const routes: Routes = [
     {
@@ -18,6 +19,8 @@ export const routes: Routes = [
     {
         path: '',
         component: AuthLayout,
-        children: [],
+        children: [
+            { path: 'login', component: LoginComponent, data: { title: 'Login' } },
+        ],
     },
 ];
