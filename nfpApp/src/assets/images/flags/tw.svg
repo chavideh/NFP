@@ -1,32 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" id="flag-icons-tw" viewBox="0 0 512 512">
-  <clipPath id="a">
-    <path d="M0 0h512v512H0z"/>
-  </clipPath>
-  <g clip-path="url(#a)">
-    <path fill="red" d="M0 0h768v512H0z"/>
-    <path fill="#000095" d="M0 0h384v256H0z"/>
-    <g fill="#fff">
-      <path d="m164.3 135.4-2.7 10.2 10.1 2.7-2-7.4zm50 5.5-2 7.4 10.1-2.7-2.7-10.2zm-44.6-25.8-5.4 5.5 2 7.4z"/>
-      <path d="m166.3 128-2 7.4 5.4 5.5z"/>
-      <path d="m164.3 120.6-7.4 7.4 7.4 7.4 2-7.4zm14.8 29.7 5.5 5.4 7.4-2zm20.3 5.4 10.2 2.7 2.7-10.1-7.4 2z"/>
-      <path d="m204.9 150.3 7.4-2 2-7.4zm-33.2-2 2.7 10.1 10.2-2.7-5.5-5.4zm20.3 5.4 7.4 2 5.5-5.4z"/>
-      <path d="m184.6 155.7 7.4 7.4 7.4-7.4-7.4-2zm-12.9-48-10.1 2.7 2.7 10.2 5.4-5.5zm-2 33.2 2 7.4 7.4 2zm48-12.9 2-7.4-5.4-5.5z"/>
-      <path d="m179.1 105.7-7.4 2-2 7.4zm35.2 9.4-2-7.4-7.4-2zm5.4 20.3 7.4-7.4-7.4-7.4-2 7.4z"/>
-      <path d="m214.3 115.1-9.4-9.4-12.9-3.4-12.9 3.4-9.4 9.4-3.4 12.9 3.4 12.9 9.4 9.4 12.9 3.4 12.9-3.4 9.4-9.4 3.4-12.9z"/>
-      <path d="m214.3 140.9 5.4-5.5-2-7.4zm5.4-20.3 2.7-10.2-10.1-2.7 2 7.4zm-7.4-12.9-2.7-10.1-10.2 2.7 5.5 5.4zm-27.7-7.4-10.2-2.7-2.7 10.1 7.4-2z"/>
-      <path d="m192 102.3-7.4-2-5.5 5.4z"/>
-      <path d="m199.4 100.3-7.4-7.4-7.4 7.4 7.4 2z"/>
-      <path d="m204.9 105.7-5.5-5.4-7.4 2zm-20.3 50-10.2 2.7 4.7 17.6 12.9-12.9zm-5.5 20.3 12.9 48 12.9-48-12.9-12.9zm-7.4-27.7-10.1-2.7-4.7 17.5 17.5-4.7z"/>
-      <path d="m156.9 163.1-12.9 48 35.1-35.1-4.7-17.6zM144 140.9 108.9 176l48-12.9 4.7-17.5z"/>
-      <path d="m164.3 135.4-7.4-7.4-12.9 12.9 17.6 4.7zm0-14.8-2.7-10.2-17.6 4.7 12.9 12.9z"/>
-      <path d="M144 115.1 96 128l48 12.9 12.9-12.9zm96 25.8-17.6 4.7 4.7 17.5 48 12.9z"/>
-      <path d="m212.3 148.3-2.7 10.1 17.5 4.7-4.7-17.5zm-12.9 7.4-7.4 7.4 12.9 12.9 4.7-17.6zm20.3-20.3 2.7 10.2 17.6-4.7-12.9-12.9zM204.9 176l35.1 35.1-12.9-48-17.5-4.7zm7.4-68.3 10.1 2.7 4.7-17.5-17.5 4.7zm27.7 7.4L275.1 80l-48 12.9-4.7 17.5zm-12.9-22.2 12.9-48L204.9 80l4.7 17.6zm12.9 48 48-12.9-48-12.9-12.9 12.9z"/>
-      <path d="m219.7 120.6 7.4 7.4 12.9-12.9-17.6-4.7zM179.1 80 144 44.9l12.9 48 17.5 4.7zm-7.4 27.7 2.7-10.1-17.5-4.7 4.7 17.5z"/>
-      <path d="m156.9 92.9-48-12.9 35.1 35.1 17.6-4.7zm42.5 7.4 10.2-2.7-4.7-17.6L192 92.9z"/>
-      <path d="M204.9 80 192 32l-12.9 48L192 92.9z"/>
-      <path d="m184.6 100.3 7.4-7.4L179.1 80l-4.7 17.6z"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="15px" viewBox="0 0 21 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 46 (44423) - http://www.bohemiancoding.com/sketch -->
+    <title>TW</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#F0F0F0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="93.7672335%" id="linearGradient-2">
+            <stop stop-color="#FE3030" offset="0%"></stop>
+            <stop stop-color="#FF0000" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#0909B6" offset="0%"></stop>
+            <stop stop-color="#000096" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="TW">
+            <rect id="FlagBackground" fill="url(#linearGradient-1)" x="0" y="0" width="21" height="15"></rect>
+            <rect id="Rectangle-2" fill="url(#linearGradient-2)" x="0" y="0" width="21" height="15"></rect>
+            <polygon id="Rectangle-2" fill="url(#linearGradient-3)" points="0 8 11 8 11 0 0 0"></polygon>
+            <polygon id="Star-27" fill="url(#linearGradient-1)" points="5.5 5.25 4.54329142 6.30969883 4.61611652 4.88388348 3.19030117 4.95670858 4.25 4 3.19030117 3.04329142 4.61611652 3.11611652 4.54329142 1.69030117 5.5 2.75 6.45670858 1.69030117 6.38388348 3.11611652 7.80969883 3.04329142 6.75 4 7.80969883 4.95670858 6.38388348 4.88388348 6.45670858 6.30969883"></polygon>
+        </g>
     </g>
-    <circle cx="192" cy="128" r="54.4" fill="#000095"/>
-    <circle cx="192" cy="128" r="48" fill="#fff"/>
-  </g>
 </svg>

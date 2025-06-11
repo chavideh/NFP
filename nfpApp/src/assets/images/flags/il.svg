@@ -1,14 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" id="flag-icons-il" viewBox="0 0 512 512">
-  <defs>
-    <clipPath id="a">
-      <path fill-opacity=".7" d="M0 0h512v512H0z"/>
-    </clipPath>
-  </defs>
-  <g fill-rule="evenodd" clip-path="url(#a)">
-    <path fill="#fff" d="M619.4 512H-112V0h731.4z"/>
-    <path fill="#0038b8" d="M619.4 115.2H-112V48h731.4zm0 350.5H-112v-67.2h731.4zm-483-275 110.1 191.6L359 191.6l-222.6-.8z"/>
-    <path fill="#fff" d="m225.8 317.8 20.9 35.5 21.4-35.3-42.4-.2z"/>
-    <path fill="#0038b8" d="M136 320.6 246.2 129l112.4 190.8-222.6.8z"/>
-    <path fill="#fff" d="m225.8 191.6 20.9-35.5 21.4 35.4-42.4.1zM182 271.1l-21.7 36 41-.1-19.3-36zm-21.3-66.5 41.2.3-19.8 36.3-21.4-36.6zm151.2 67 20.9 35.5-41.7-.5 20.8-35zm20.5-67-41.2.3 19.8 36.3 21.4-36.6zm-114.3 0L189.7 256l28.8 50.3 52.8 1.2 32-51.5-29.6-52-55.6.5z"/>
-  </g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="15px" viewBox="0 0 21 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 46 (44423) - http://www.bohemiancoding.com/sketch -->
+    <title>IL</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#F0F0F0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#0E46D4" offset="0%"></stop>
+            <stop stop-color="#0538B9" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="IL">
+            <rect id="FlagBackground" fill="url(#linearGradient-1)" x="0" y="0" width="21" height="15"></rect>
+            <rect id="Rectangle-2" fill="url(#linearGradient-2)" x="0" y="0" width="21" height="3"></rect>
+            <rect id="Rectangle-2" fill="url(#linearGradient-2)" x="0" y="12" width="21" height="3"></rect>
+            <rect id="Rectangle-2" fill="url(#linearGradient-1)" x="0" y="3" width="21" height="9"></rect>
+            <path d="M7.17451256,7.91015593 L12.3399226,4.81316074 L12.240551,10.8350345 L7.17451256,7.91015593 Z" id="Star-25" stroke="#093EC5" stroke-width="0.5" transform="translate(9.875000, 7.832532) rotate(-30.000000) translate(-9.875000, -7.832532) "></path>
+            <path d="M7.17451263,7.24509219 L12.3399224,4.14809702 L12.240551,10.1699711 L7.17451263,7.24509219 Z" id="Star-25-Copy" stroke="#093EC5" stroke-width="0.5" transform="translate(9.875000, 7.167468) scale(1, -1) rotate(-30.000000) translate(-9.875000, -7.167468) "></path>
+        </g>
+    </g>
 </svg>

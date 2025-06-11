@@ -1,17 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" id="flag-icons-za" viewBox="0 0 512 512">
-  <defs>
-    <clipPath id="a">
-      <path fill-opacity=".7" d="M70.1 0h499.6v499.6H70.1z"/>
-    </clipPath>
-  </defs>
-  <g clip-path="url(#a)" transform="translate(-71.9) scale(1.0248)">
-    <g fill-rule="evenodd" stroke-width="1pt">
-      <path d="M0 397.9v-296l220.4 147.9L0 397.9z"/>
-      <path fill="#00c" d="m150.4 499.7 247.4-166.5h351.6v166.5h-599z"/>
-      <path fill="red" d="M134.5 0h615v166.6H397.7S137.8-1.6 134.5 0z"/>
-      <path fill="#fc0" d="M0 62.5v39.3l220.4 148L0 397.8v39.4l277.6-187.4L0 62.5z"/>
-      <path fill="#093" d="M0 62.5V0h92.6l294 199h362.8v101.7H386.6l-294 198.9H0v-62.4l277.6-187.4L0 62.5z"/>
-      <path fill="#fff" d="M92.6 0h57.8l247.4 166.6h351.6V199H386.6L92.6 0zm0 499.7h57.8l247.4-166.5h351.6v-32.4H386.6l-294 198.8z"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="15px" viewBox="0 0 21 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 46 (44423) - http://www.bohemiancoding.com/sketch -->
+    <title>ZA</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#F0F0F0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#06A86E" offset="0%"></stop>
+            <stop stop-color="#007A4E" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#FFBF2E" offset="0%"></stop>
+            <stop stop-color="#FFB612" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#262626" offset="0%"></stop>
+            <stop stop-color="#0D0D0D" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#F44E46" offset="0%"></stop>
+            <stop stop-color="#DF3931" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-6">
+            <stop stop-color="#072CB4" offset="0%"></stop>
+            <stop stop-color="#042396" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ZA">
+            <rect id="FlagBackground" fill="url(#linearGradient-1)" x="0" y="0" width="21" height="15"></rect>
+            <rect id="Mask" fill="url(#linearGradient-2)" x="0" y="0" width="21" height="15"></rect>
+            <polygon id="Rectangle-83" fill="url(#linearGradient-3)" points="0 2 7 7.5 0 13"></polygon>
+            <polygon id="Rectangle-83-Copy-5" fill="url(#linearGradient-4)" points="-1 2.25 5.75 7.5 -1 12.75"></polygon>
+            <polygon id="Rectangle-83-Copy" fill="#FFFFFF" points="9 6 2 0 21 0 21 6"></polygon>
+            <polygon id="Rectangle-83-Copy-3" fill="url(#linearGradient-5)" points="9.25 5 3.25 0 21 0 21 5"></polygon>
+            <polygon id="Rectangle-83-Copy-2" fill="#FFFFFF" points="2 15 21 15 21 9 9 9"></polygon>
+            <polygon id="Rectangle-83-Copy-4" fill="url(#linearGradient-6)" points="3.25 15 21 15 21 10 9.25 10"></polygon>
+        </g>
     </g>
-  </g>
 </svg>
