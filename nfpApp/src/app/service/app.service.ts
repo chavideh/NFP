@@ -30,7 +30,7 @@ export class AppService {
         val = val || $themeConfig.layout;
         this.store.dispatch({ type: 'toggleLayout', payload: val });
 
-        val = localStorage.getItem('i18n_locale'); // en, da, de, el, es, fr, hu, it, ja, pl, pt, ru, sv, tr, zh
+        val = localStorage.getItem('i18n_locale'); // stored locale
         val = val || $themeConfig.locale;
 
         const list = this.storeData.languageList;
@@ -58,7 +58,7 @@ export class AppService {
 
     toggleLanguage(item: any) {
         let lang: any = null;
-        lang = 'en';
+        lang = 'fa';
         if (item) {
             lang = item;
         } else {
@@ -74,7 +74,7 @@ export class AppService {
         }
 
         if (!lang) {
-            lang = this.storeData.languageList.find((d: any) => d.code === 'en');
+            lang = this.storeData.languageList.find((d: any) => d.code === 'fa');
         }
 
         this.translate.use(lang.code); // set language
