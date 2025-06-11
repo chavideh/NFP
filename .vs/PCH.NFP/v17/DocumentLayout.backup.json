@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\Projects\\NFP\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E2D84FAA-1626-45D2-9443-6ADD8F756346}|PCH.NFP.API\\PCH.NFP.API.csproj|d:\\projects\\nfp\\pch.nfp.api\\features\\product\\createproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2D84FAA-1626-45D2-9443-6ADD8F756346}|PCH.NFP.API\\PCH.NFP.API.csproj|solutionrelative:pch.nfp.api\\features\\product\\createproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2D84FAA-1626-45D2-9443-6ADD8F756346}|PCH.NFP.API\\PCH.NFP.API.csproj|d:\\projects\\nfp\\pch.nfp.api\\features\\auth\\authprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2D84FAA-1626-45D2-9443-6ADD8F756346}|PCH.NFP.API\\PCH.NFP.API.csproj|solutionrelative:pch.nfp.api\\features\\auth\\authprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E2D84FAA-1626-45D2-9443-6ADD8F756346}|PCH.NFP.API\\PCH.NFP.API.csproj|d:\\projects\\nfp\\pch.nfp.api\\pch.nfp.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{E2D84FAA-1626-45D2-9443-6ADD8F756346}|PCH.NFP.API\\PCH.NFP.API.csproj|solutionrelative:pch.nfp.api\\pch.nfp.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
@@ -14,12 +22,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{7f40df72-066b-4810-a08b-c0fbed76c948}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PCH.NFP.API",
+              "Title": "CreateProduct.cs",
+              "DocumentMoniker": "D:\\Projects\\NFP\\PCH.NFP.API\\Features\\Product\\CreateProduct.cs",
+              "RelativeDocumentMoniker": "PCH.NFP.API\\Features\\Product\\CreateProduct.cs",
+              "ToolTip": "D:\\Projects\\NFP\\PCH.NFP.API\\Features\\Product\\CreateProduct.cs",
+              "RelativeToolTip": "PCH.NFP.API\\Features\\Product\\CreateProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T20:25:22.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthProfile.cs",
+              "DocumentMoniker": "D:\\Projects\\NFP\\PCH.NFP.API\\Features\\Auth\\AuthProfile.cs",
+              "RelativeDocumentMoniker": "PCH.NFP.API\\Features\\Auth\\AuthProfile.cs",
+              "ToolTip": "D:\\Projects\\NFP\\PCH.NFP.API\\Features\\Auth\\AuthProfile.cs",
+              "RelativeToolTip": "PCH.NFP.API\\Features\\Auth\\AuthProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T20:25:04.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PCH.NFP.API.csproj",
               "DocumentMoniker": "D:\\Projects\\NFP\\PCH.NFP.API\\PCH.NFP.API.csproj",
               "RelativeDocumentMoniker": "PCH.NFP.API\\PCH.NFP.API.csproj",
               "ToolTip": "D:\\Projects\\NFP\\PCH.NFP.API\\PCH.NFP.API.csproj",
@@ -28,14 +70,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-06-11T12:37:43.961Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:2:0:{7f40df72-066b-4810-a08b-c0fbed76c948}"
             }
           ]
         }

@@ -2249,6 +2249,16 @@
             "rid": "win"
           }
         }
+      },
+      "PCH.NFP.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/PCH.NFP.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PCH.NFP.Shared.dll": {}
+        }
       }
     }
   },
@@ -5763,6 +5773,11 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "PCH.NFP.Shared/1.0.0": {
+      "type": "project",
+      "path": "../PCH.NFP.Shared/PCH.NFP.Shared.csproj",
+      "msbuildProject": "../PCH.NFP.Shared/PCH.NFP.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5779,7 +5794,8 @@
       "Microsoft.CodeAnalysis.Workspaces.MSBuild >= 4.13.0",
       "Microsoft.EntityFrameworkCore >= 9.0.3",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.3",
-      "Microsoft.EntityFrameworkCore.Tools >= 9.0.3"
+      "Microsoft.EntityFrameworkCore.Tools >= 9.0.3",
+      "PCH.NFP.Shared >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5813,7 +5829,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Projects\\NFP\\PCH.NFP.Shared\\PCH.NFP.Shared.csproj": {
+              "projectPath": "D:\\Projects\\NFP\\PCH.NFP.Shared\\PCH.NFP.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

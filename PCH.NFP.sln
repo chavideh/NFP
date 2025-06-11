@@ -5,6 +5,8 @@ VisualStudioVersion = 17.13.35828.75
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PCH.NFP.API", "PCH.NFP.API\PCH.NFP.API.csproj", "{E2D84FAA-1626-45D2-9443-6ADD8F756346}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PCH.NFP.Shared", "PCH.NFP.Shared\PCH.NFP.Shared.csproj", "{FC319F64-62D7-2682-1755-5FCA473F292A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{E2D84FAA-1626-45D2-9443-6ADD8F756346}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2D84FAA-1626-45D2-9443-6ADD8F756346}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2D84FAA-1626-45D2-9443-6ADD8F756346}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC319F64-62D7-2682-1755-5FCA473F292A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC319F64-62D7-2682-1755-5FCA473F292A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC319F64-62D7-2682-1755-5FCA473F292A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC319F64-62D7-2682-1755-5FCA473F292A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
