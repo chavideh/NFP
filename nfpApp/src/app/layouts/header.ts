@@ -129,14 +129,9 @@ export class HeaderComponent {
         this.messages = this.messages.filter((d) => d.id !== value);
     }
 
-    changeLanguage(item: any) {
-        this.translate.use(item.code);
-        this.appSetting.toggleLanguage(item);
-        if (this.store.locale?.toLowerCase() === 'ae') {
-            this.storeData.dispatch({ type: 'toggleRTL', payload: 'rtl' });
-        } else {
-            this.storeData.dispatch({ type: 'toggleRTL', payload: 'ltr' });
-        }
-        window.location.reload();
+    changeLanguage() {
+        // force application to use Persian and RTL
+        this.translate.use('fa');
+        this.storeData.dispatch({ type: 'toggleRTL', payload: 'rtl' });
     }
 }
