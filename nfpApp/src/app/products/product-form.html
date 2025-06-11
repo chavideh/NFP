@@ -1,31 +1,36 @@
-<form (ngSubmit)="save()" #f="ngForm">
-    <div class="mb-3">
-        <label class="form-label">Code</label>
-        <input class="form-control" name="code" [(ngModel)]="product.code" required />
+<div class="panel">
+<form (ngSubmit)="save()" #f="ngForm" class="space-y-5">
+    <div class="row">
+    <div class="mb-6">
+        <label class="form-label">کد</label>
+        <input class="form-input" name="code" [(ngModel)]="product.code" required />
     </div>
     <div class="mb-3">
-        <label class="form-label">Title</label>
-        <input class="form-control" name="title" [(ngModel)]="product.title" required />
+        <label class="form-label">عنوان</label>
+        <input class="form-input" name="title" [(ngModel)]="product.title" required />
     </div>
     <div class="mb-3">
         <label class="form-label">Iran Code</label>
-        <input class="form-control" name="iranCode" [(ngModel)]="product.iranCode" />
+        <input class="form-input" name="iranCode" [(ngModel)]="product.iranCode" />
     </div>
     <div class="mb-3">
         <label class="form-label">Sepidar Code</label>
-        <input class="form-control" name="sepidarCode" [(ngModel)]="product.sepidarCode" />
+        <input class="form-input" name="sepidarCode" [(ngModel)]="product.sepidarCode" />
     </div>
     <div class="mb-3">
-        <label class="form-label">Quantity</label>
-        <input type="number" class="form-control" name="quantity" [(ngModel)]="product.quantity" />
+        <label class="form-label">تعداد</label>
+        <input type="number" class="form-input" name="quantity" [(ngModel)]="product.quantity" />
     </div>
     <div class="mb-3">
-        <label class="form-label">Description</label>
-        <textarea class="form-control" name="description" [(ngModel)]="product.description"></textarea>
+        <label class="form-label">توضیحات</label>
+        <textarea class="form-input" name="description" [(ngModel)]="product.description"></textarea>
     </div>
     <div class="form-check mb-3">
         <input type="checkbox" class="form-check-input" name="publish" [(ngModel)]="product.publish" />
-        <label class="form-check-label">Publish</label>
+        <label class="form-check-label">فعال</label>
     </div>
-    <button class="btn btn-primary" type="submit" [disabled]="f.invalid">Save</button>
+    <button class="btn btn-primary" type="submit" [disabled]="f.invalid">ذخیره</button>
+    </div>
 </form>
+
+</div>
