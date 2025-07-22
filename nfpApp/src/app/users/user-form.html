@@ -1,0 +1,29 @@
+<div class="panel">
+<form (ngSubmit)="save()" #f="ngForm" class="space-y-5">
+    <div class="mb-3">
+        <label class="form-label">Username</label>
+        <input class="form-input" name="userName" [(ngModel)]="user.userName" required />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">First Name</label>
+        <input class="form-input" name="firstName" [(ngModel)]="user.firstName" required />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Last Name</label>
+        <input class="form-input" name="lastName" [(ngModel)]="user.lastName" required />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">National Code</label>
+        <input class="form-input" name="nationalCode" [(ngModel)]="user.nationalCode" required />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Email</label>
+        <input class="form-input" name="email" [(ngModel)]="user.email" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Password</label>
+        <input type="password" class="form-input" name="password" [(ngModel)]="user.password" required />
+    </div>
+    <button class="btn btn-primary" type="submit" [disabled]="f.invalid">Save</button>
+</form>
+</div>
