@@ -24,6 +24,14 @@
                             </div>
                         </a>
                     </li>
+                    <li class="nav-item">
+                        <a routerLink="/users" class="group" routerLinkActive="active" (click)="toggleMobileMenu()">
+                            <div class="flex items-center">
+                                <icon-menu-users class="shrink-0 group-hover:!text-primary" />
+                                <span class="text-black dark:text-[#506690] dark:group-hover:text-white-dark ltr:pl-3 rtl:pr-3">{{ 'users' | translate }}</span>
+                            </div>
+                        </a>
+                    </li>
                 </ul>
             </ng-scrollbar>
         </div>
